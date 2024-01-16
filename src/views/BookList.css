@@ -1,0 +1,100 @@
+/* Stylizacja tabeli */
+table {
+    width: 80%;
+    margin: 0 auto;
+    /* Wyśrodkowanie tabeli na stronie */
+    border-collapse: collapse;
+}
+
+
+td {
+    /* border: 1 solid #000; */
+    padding: 8px;
+    text-align: center;
+    /* border-bottom: 1 #000; */
+}
+
+th {
+    background-color: #23d399;
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Stylizacja przycisków */
+button {
+    width: 152px;
+    background-color: #23d399;
+    color: black;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Stylizacja przycisku Usun */
+button.delete-button {
+    background-color: rgba(208, 45, 45, 0.91);
+    /* Czerwony kolor */
+    color: black;
+    /* biały kolor */
+    border: 1px solid #000000;
+    /* Dodanie obramowania */
+}
+
+/* Stylizacja przycisku Edytuj */
+button.edit-button {
+    background-color: #ff7b4b;
+    /* Biały kolor */
+    color: black;
+    /* Czarny kolor */
+    border: 1px solid #000000;
+    /* Dodanie obramowania */
+}
+
+/* Stylizacja przycisku Zapisz */
+button.save-button {
+    background-color: rgb(89, 203, 68);
+    /* Biały kolor */
+    color: black;
+    /* Czarny kolor */
+    border: 1px solid #000000;
+    /* Dodanie obramowania */
+}
+
+/* Stylizacja przycisku Anuluj */
+button.cancel-button {
+    background-color: #7098d3;
+    /* Biały kolor */
+    color: black;
+    /* Czarny kolor */
+    border: 1px solid #000000;
+    /* Dodanie obramowania */
+}
+
+button.delete-button:hover {
+    background-color: #ab0909;
+}
+button.edit-button:hover {
+    background-color: #ff622c;
+}
+button.save-button:hover {
+    background-color: #22b604;
+}
+
+button.cancel-button:hover {
+    background-color: #1f5afd;
+}
+
+button:hover {
+    background-color: #05b783;
+}
+
+.theme-light {
+  background-color: white; /* Białe tło dla jasnego motywu */
+  color: black; /* Czarny tekst dla jasnego motywu */
+}
+
+.theme-dark {
+  background-color: #1e325c; /* Ciemne tło dla ciemnego motywu */
+  color: rgb(255, 255, 255); /* Biały tekst dla ciemnego motywu */
+}

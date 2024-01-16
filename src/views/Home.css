@@ -1,0 +1,16 @@
+.center-content {
+    display: flex;
+    float: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    min-width: 200vh;
+    min-height: 80vh;
+}
+
+button.home-button {
+    width: 500px;
+    height: 300px;
+    font-size: large;
+}
